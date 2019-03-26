@@ -1,0 +1,22 @@
+# ODM Proprietary
+
+menu	"Hardware Model"
+
+	choice
+		prompt "Product Profile"
+
+		default HW_MODEL_WLRGFM-101
+
+		config	HW_MODEL_WLRGFM-100
+		bool	"WLRGFM-100"
+
+		config	HW_MODEL_WLRGFM-101
+		bool	"WLRGFM-101"
+
+		config	HW_MODEL_WLRRTMS-104
+		bool	"WLRRTMS-104"
+
+
+	endchoice
+
+endmenu
